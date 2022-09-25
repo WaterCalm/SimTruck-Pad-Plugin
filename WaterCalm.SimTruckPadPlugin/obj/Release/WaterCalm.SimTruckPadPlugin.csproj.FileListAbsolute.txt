@@ -1,0 +1,16 @@
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\bin\Release\WaterCalm.SimTruckPadPlugin.dll
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\bin\Release\WaterCalm.SimTruckPadPlugin.pdb
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\bin\Release\InputManagerCS.dll
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\bin\Release\Newtonsoft.Json.dll
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin.csproj.AssemblyReference.cache
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\SimTruckPadSettingsControl.g.cs
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin_MarkupCompile.cache
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin_MarkupCompile.lref
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\SimTruckPadSettingsControl.baml
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin.g.resources
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin.Properties.Resources.resources
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin.csproj.GenerateResource.cache
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin.csproj.CoreCompileInputs.cache
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin.csproj.CopyComplete
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin.dll
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Release\WaterCalm.SimTruckPadPlugin.pdb

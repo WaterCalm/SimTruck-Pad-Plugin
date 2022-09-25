@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="WaterCalm.SimTruckPadPlugin.SimTruckPadSettingsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WaterCalm.SimTruckPadPlugin"
+             xmlns:styles="clr-namespace:SimHub.Plugins.Styles;assembly=SimHub.Plugins" mc:Ignorable="d" 
+             xmlns:ui="clr-namespace:SimHub.Plugins.UI;assembly=SimHub.Plugins" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="3,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="46"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="36"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock TextWrapping="Wrap" Text="SimTruck Pad Status" FontWeight="Bold" FontSize="16" Grid.ColumnSpan="2" Margin="20,20,0,0"/>
+        <TextBlock TextWrapping="Wrap" Text="SDK Active" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,20,0"/>
+        <TextBlock TextWrapping="Wrap" Text="SDK DLL Version" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,20,0"/>
+        <TextBlock TextWrapping="Wrap" Text="Game" Grid.Row="4" VerticalAlignment="Center" Margin="0,0,20,0" HorizontalAlignment="Right"/>
+        <TextBlock TextWrapping="Wrap" Grid.Row="6" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0" Text="Game SDK Version"/>
+        <TextBlock x:Name="sdkactivate_value" TextWrapping="Wrap" Text="False" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        <TextBlock x:Name="sdkversion_value" TextWrapping="Wrap" Text="0" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="game_value" TextWrapping="Wrap" Text="Unknown" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="gameversion_value" TextWrapping="Wrap" Text="0" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock TextWrapping="Wrap" Text="https://github.com/WaterCalm" Grid.ColumnSpan="4" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="8" Margin="0,0,50,0" TextDecorations="Underline">
+            <TextBlock.Foreground>
+                <SolidColorBrush Color="{DynamicResource AccentBaseColor}"/>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock TextWrapping="Wrap" Text="Plugin Version" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,19,0"/>
+        <TextBlock TextWrapping="Wrap" Text="Current Version" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+        <TextBlock TextWrapping="Wrap" Text="Tested Version" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+        <TextBlock TextWrapping="Wrap" Text="0.1" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        <TextBlock TextWrapping="Wrap" Text="Telemetry Version" Grid.Row="7" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0"/>
+        <TextBlock x:Name="telemetryversion_value" TextWrapping="Wrap" Text="0" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock TextWrapping="Wrap" Text="11" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock TextWrapping="Wrap" Text="1.18" Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock TextWrapping="Wrap" Text="1.17" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock TextWrapping="Wrap" Text="Ets2" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+    </Grid>
+</UserControl>

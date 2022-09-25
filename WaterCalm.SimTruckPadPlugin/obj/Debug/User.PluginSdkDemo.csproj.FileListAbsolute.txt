@@ -1,0 +1,14 @@
+D:\Dev\simhub\SimHub\User.PluginSdkDemo.dll
+D:\Dev\simhub\SimHub\User.PluginSdkDemo.pdb
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo.csproj.AssemblyReference.cache
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\SettingsControlDemo.g.cs
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo_MarkupCompile.cache
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo_MarkupCompile.lref
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\SettingsControlDemo.baml
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo.g.resources
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo.Properties.Resources.resources
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo.csproj.GenerateResource.cache
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo.csproj.CoreCompileInputs.cache
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo.csproj.CopyComplete
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo.dll
+D:\Dev\simhub\SimTruckPad\WaterCalm.SimTruckPadPlugin\obj\Debug\User.PluginSdkDemo.pdb

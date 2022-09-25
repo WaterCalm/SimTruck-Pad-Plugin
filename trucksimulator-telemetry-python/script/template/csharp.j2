@@ -1,0 +1,69 @@
+using System.Collections;
+
+/*
+ * Create By PythonScript 
+ * Create Time:  {{ data['nowtime'] }}
+ */
+
+namespace {{ data['namespace'] }}
+{
+
+    public class memoryMap
+    {
+        public struct memoryTuple
+        {
+            public int startIndex;
+            public int length;
+            public string valueType;
+
+            public memoryTuple(int si, int len, string vt)
+            {
+                startIndex = si;
+                length = len;
+                valueType = vt;
+            }
+        }
+
+        public Hashtable memorys_map = new Hashtable();
+        {% for i in range(data['trailers']|length) %}
+        public Hashtable trailer{{ i }} = new Hashtable();
+        {%- endfor %}
+
+        public memoryMap()
+        {
+            {% for d in data['hashtables'] %}
+            {%- if d[1] | isTuple %}
+            memorys_map.Add("{{ d[0] }}", new memoryTuple({{ d[1][1] }}, {{ d[1][2] }}, "{{ d[1][3] }}"));
+            {%- elif d[1] | isList %}
+            memorys_map.Add("{{ d[0] }}", new memoryTuple[{{ d[1] | length }}]{
+                {%- for t in d[1] -%}
+                new memoryTuple({{ t[1] }}, {{ t[2] }}, "{{ t[3] }}"),
+                {%- endfor -%}
+            }); 
+            {%- endif %}
+            {%- endfor %}
+            
+            {% for i in range(data['trailers']|length) %}
+            {% for d in data['trailers'][i] %}
+            {%- if d[1] | isTuple %}
+            trailer{{i}}.Add("{{ d[0] }}", new memoryTuple({{ d[1][1] }}, {{ d[1][2] }}, "{{ d[1][3] }}"));
+            {%- elif d[1] | isList %}
+            trailer{{i}}.Add("{{ d[0] }}", new memoryTuple[{{ d[1] | length }}]{
+                {%- for t in d[1] -%}
+                new memoryTuple({{ t[1] }}, {{ t[2] }}, "{{ t[3] }}"),
+                {%- endfor -%}
+            }); 
+            {%- endif %}
+            {%- endfor %}
+            {%- endfor %}
+            
+            memorys_map.Add("trailers", new Hashtable[{{ data['trailers'] | length }}]
+            {
+                {% for i in range(data['trailers']|length) %}
+                trailer{{i}},
+                {%- endfor %}
+            });
+            
+        }
+    }
+}
