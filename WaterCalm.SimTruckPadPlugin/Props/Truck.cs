@@ -29,12 +29,12 @@ namespace WaterCalm.SimTruckPadPlugin.Props
             Base.AddProp("Truck.Motor.SelectorCount", 0);
             Base.AddProp("Truck.Motor.EngineRPMMax", 0);
             Base.AddProp("Truck.Motor.DifferentialRation", 0);
-            //Base.AddProp("Truck.Motor.GearRatiosForward", 0);
-            //Base.AddProp("Truck.Motor.GearRatiosReverse", 0);
+            Base.AddProp("Truck.Motor.GearRatiosForward", 0);
+            Base.AddProp("Truck.Motor.GearRatiosReverse", 0);
             Base.AddProp("Truck.Motor.ShifterTypeValue", 0);
-            //Base.AddProp("Truck.Motor.SlotGear", 0);
-            //Base.AddProp("Truck.Motor.SlotHandlePosition", 0);
-            //Base.AddProp("Truck.Motor.SlotSelectors", 0);
+            Base.AddProp("Truck.Motor.SlotGear", 0);
+            Base.AddProp("Truck.Motor.SlotHandlePosition", 0);
+            Base.AddProp("Truck.Motor.SlotSelectors", 0);
 
             Base.AddProp("Truck.Capacity.Fuel", 0);
             Base.AddProp("Truck.Capacity.Adblue", 0);
@@ -48,11 +48,11 @@ namespace WaterCalm.SimTruckPadPlugin.Props
             Base.AddProp("Truck.Warning.BatteryVoltage", 0);
 
             Base.AddProp("Truck.Wheels.Count", 0);
-            //Base.AddProp("Truck.Wheels.Radius", 0);
-            //Base.AddProp("Truck.Wheels.Simulated", 0);
-            //Base.AddProp("Truck.Wheels.Powered", 0);
-            //Base.AddProp("Truck.Wheels.Liftable", 0);
-            //Base.AddProp("Truck.Wheels.Steerable", 0);
+            Base.AddProp("Truck.Wheels.Radius", 0);
+            Base.AddProp("Truck.Wheels.Simulated", 0);
+            Base.AddProp("Truck.Wheels.Powered", 0);
+            Base.AddProp("Truck.Wheels.Liftable", 0);
+            Base.AddProp("Truck.Wheels.Steerable", 0);
 
             Base.AddProp("Truck.BrandId", 0);
             Base.AddProp("Truck.Brand", 0);
@@ -64,6 +64,7 @@ namespace WaterCalm.SimTruckPadPlugin.Props
 
             Base.AddProp("Truck.Current.ElectricEnabled", 0);
             Base.AddProp("Truck.Current.EngineEnabled", 0);
+            Base.AddProp("Truck.Current.DifferentialLock", 0);
             Base.AddProp("Truck.Current.LiftAxle", 0);
             Base.AddProp("Truck.Current.LiftAxleIndicator", 0);
             Base.AddProp("Truck.Current.TrailerLiftAxle", 0);
@@ -107,12 +108,12 @@ namespace WaterCalm.SimTruckPadPlugin.Props
             Base.SetProp("Truck.Motor.SelectorCount", Base.sharedMemory.GetValue("config.selectorCount"));
             Base.SetProp("Truck.Motor.EngineRPMMax", Base.sharedMemory.GetValue("config.engineRpmMax"));
             Base.SetProp("Truck.Motor.DifferentialRation", Base.sharedMemory.GetValue("config.gearDifferential"));
-            //Base.SetProp("Truck.Motor.GearRatiosForward", Base.sharedMemory.GetValue("config.gearRatiosForward"));
-            //Base.SetProp("Truck.Motor.GearRatiosReverse", Base.sharedMemory.GetValue("config.gearRatiosReverse"));
+            Base.SetProp("Truck.Motor.GearRatiosForward", Base.sharedMemory.GetValue("config.gearRatiosForward"));
+            Base.SetProp("Truck.Motor.GearRatiosReverse", Base.sharedMemory.GetValue("config.gearRatiosReverse"));
             Base.SetProp("Truck.Motor.ShifterTypeValue", Base.sharedMemory.GetValue("config.shifterType"));
-            //Base.SetProp("Truck.Motor.SlotGear", Base.sharedMemory.GetValue("truck.hshifterResulting"));
-            //Base.SetProp("Truck.Motor.SlotHandlePosition", Base.sharedMemory.GetValue("truck.hshifterPosition"));
-            //Base.SetProp("Truck.Motor.SlotSelectors", Base.sharedMemory.GetValue("truck.hshifterBitmask"));
+            Base.SetProp("Truck.Motor.SlotGear", Base.sharedMemory.GetValue("truck.hshifterResulting"));
+            Base.SetProp("Truck.Motor.SlotHandlePosition", Base.sharedMemory.GetValue("truck.hshifterPosition"));
+            Base.SetProp("Truck.Motor.SlotSelectors", Base.sharedMemory.GetValue("truck.hshifterBitmask"));
 
             Base.SetProp("Truck.Capacity.Fuel", Base.sharedMemory.GetValue("config.fuelCapacity"));
             Base.SetProp("Truck.Capacity.Adblue", Base.sharedMemory.GetValue("config.adblueCapacity"));
@@ -126,11 +127,11 @@ namespace WaterCalm.SimTruckPadPlugin.Props
             Base.SetProp("Truck.Warning.BatteryVoltage", Base.sharedMemory.GetValue("config.batteryVoltageWarning"));
 
             Base.SetProp("Truck.Wheels.Count", Base.sharedMemory.GetValue("config.truckWheelCount"));
-            //Base.SetProp("Truck.Wheels.Radius", Base.sharedMemory.GetValue("config.truckWheelRadius"));
-            //Base.SetProp("Truck.Wheels.Simulated", Base.sharedMemory.GetValue("config.truckWheelSimulated"));
-            //Base.SetProp("Truck.Wheels.Powered", Base.sharedMemory.GetValue("config.truckWheelPowered"));
-            //Base.SetProp("Truck.Wheels.Liftable", Base.sharedMemory.GetValue("config.truckWheelLiftable"));
-            //Base.SetProp("Truck.Wheels.Steerable", Base.sharedMemory.GetValue("config.truckWheelSteerable"));
+            Base.SetProp("Truck.Wheels.Radius", Base.sharedMemory.GetValue("config.truckWheelRadius"));
+            Base.SetProp("Truck.Wheels.Simulated", Base.sharedMemory.GetValue("config.truckWheelSimulated"));
+            Base.SetProp("Truck.Wheels.Powered", Base.sharedMemory.GetValue("config.truckWheelPowered"));
+            Base.SetProp("Truck.Wheels.Liftable", Base.sharedMemory.GetValue("config.truckWheelLiftable"));
+            Base.SetProp("Truck.Wheels.Steerable", Base.sharedMemory.GetValue("config.truckWheelSteerable"));
 
             Base.SetProp("Truck.BrandId", Base.sharedMemory.GetValue("config.truckBrandId"));
             Base.SetProp("Truck.Brand", Base.sharedMemory.GetValue("config.truckBrand"));
@@ -142,6 +143,7 @@ namespace WaterCalm.SimTruckPadPlugin.Props
 
             Base.SetProp("Truck.Current.ElectricEnabled", Base.sharedMemory.GetValue("truck.electricEnabled"));
             Base.SetProp("Truck.Current.EngineEnabled", Base.sharedMemory.GetValue("truck.engineEnabled"));
+            Base.SetProp("Truck.Current.DifferentialLock", Base.sharedMemory.GetValue("truck.differentialLock"));
             Base.SetProp("Truck.Current.LiftAxle", Base.sharedMemory.GetValue("truck.liftAxle"));
             Base.SetProp("Truck.Current.LiftAxleIndicator", Base.sharedMemory.GetValue("truck.liftAxleIndicator"));
             Base.SetProp("Truck.Current.TrailerLiftAxle", Base.sharedMemory.GetValue("truck.trailerLiftAxle"));

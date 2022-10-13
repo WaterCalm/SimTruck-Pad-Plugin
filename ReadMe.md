@@ -132,10 +132,10 @@
 | Truck.Current.Wheels.LiftOffset |  车轮升降偏移？  |
 | Truck.Current.Wheels.OnGround |  车轮是否抓地  |
 | Truck.Current.Damage.Engine |  发动机损坏  |
-| Truck.Current.Damage.Transmission |  传播？  |
-| Truck.Current.Damage.Cabin |  驾驶室损坏？  |
-| Truck.Current.Damage.Chassis |  车架损坏？  |
-| Truck.Current.Damage.WheelsAvg |  轮胎平均损坏量  |
+| Truck.Current.Damage.Transmission |  变速器损坏  |
+| Truck.Current.Damage.Cabin |  驾驶室损坏  |
+| Truck.Current.Damage.Chassis |  底盘损坏  |
+| Truck.Current.Damage.WheelsAvg |  轮胎损坏（平均）  |
 | __Misc：其他__ |
 | Misc.Control.User.Steering |  用户方向盘角度  |
 | Misc.Control.User.Throttle |  用户油门踏板  |

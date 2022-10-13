@@ -53,8 +53,8 @@ namespace WaterCalm.SimTruckPadPlugin.Props
             Base.SetProp("Job.CitySourceId", Base.sharedMemory.GetValue("config.citySrcId"));
             Base.SetProp("Job.CitySource", Base.sharedMemory.GetValue("config.citySrc"));
             Base.SetProp("Job.CompanySourceId", Base.sharedMemory.GetValue("config.compSrcId"));
-            Base.SetProp("Job.CompanySource", Base.sharedMemory.GetValue("config.jobIncome"));
-            Base.SetProp("Job.Income", Base.sharedMemory.GetValue("config.time_abs_delivery"));
+            Base.SetProp("Job.CompanySource", Base.sharedMemory.GetValue("config.compSrc"));
+            Base.SetProp("Job.Income", Base.sharedMemory.GetValue("config.jobIncome"));
             Base.SetProp("Job.PlannedDistanceKm", Base.sharedMemory.GetValue("config.plannedDistanceKm"));
 
             Base.SetProp("Job.Cargo.Mass", Base.sharedMemory.GetValue("config.cargoMass"));

@@ -112,7 +112,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="sdkmenuicon.png" />
-    <Content Include="sdkmenuicon11.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
